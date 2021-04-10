@@ -4,18 +4,67 @@ body {
 	font-family: 'Open Sans', helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
+	color: #9F9F9F;
+	background-color: #FFF;
 }
 
 a {
 	text-decoration: none;
+	color: #FFF;
 }
 
-footer {
-	height: 275px;
+
+/*---HEADER---*/
+header, footer {
+	height: 110px;
 	background-color: #4A4A4A;
 	color: #FFF;
 	text-align: center;
 	overflow: hidden;
+}
+
+header .logo {
+	width: 106px;
+  height: 18px;
+  margin-top: 45px;
+  margin-left: 83px;
+  float: left;
+}
+
+header .links {
+	margin-left: 24px;
+  height: 110px;
+  line-height: 110px;
+  overflow: hidden;
+  float: left;
+	display: flex;
+	justify-content: center;
+}
+
+header .links a {
+	padding: 0 10px;
+  border-top: 3px solid #4a4a4a;
+}
+
+header .links .active {
+	border-top: 3px solid #46AD8F;
+}
+
+header .social {
+	float: right;
+	margin-right: 80px;
+	margin-top: 44px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+header .social a, footer .social a {
+		margin: 0 6px;
+}
+/*---FOOTER---*/
+footer {
+	height: 275px;
 }
 
 footer .footer-main {
@@ -28,12 +77,11 @@ footer .links {
 	margin: 0 auto;
 	margin-top: 80px;
 	display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 footer .links a {
 	margin: 0 10px;
-	color: #FFF;
 }
 
 footer .social {
@@ -42,10 +90,44 @@ footer .social {
 	margin-top: 40px;
 }
 
-footer .social a {
-	margin: 0 6px;
-}
-
 footer p {
 	margin-top: 40px;
+}
+
+
+/*RESPONSIVE GENERAL*/
+@media screen and (max-width: 460px) {
+	footer .footer-main {
+		width: 275px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	header {
+		height: 260px;
+	}
+	header .logo {
+		width: 100%;
+		margin-bottom: 45px;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	header .links {
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+		line-height: 2;
+		float: none;
+	}
+	header .links a {
+		width: 80px;
+	}
+
+	header .social {
+		width: 100%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
