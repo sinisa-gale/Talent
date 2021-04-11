@@ -211,7 +211,7 @@
   margin-right: 60px;
   margin-top: 170px;
   color: #FFF;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .projects .proj-left .prev-proj span {
@@ -235,7 +235,7 @@
 .projects .proj-center p:first-child {
   margin-top: 170px;
   color: #FFF;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .projects .proj-center p:nth-child(2) {
