@@ -172,7 +172,81 @@
   margin-bottom: 42px;
 }
 /*--PROJECTS--*/
+.projects {
+  width: 100%;
+  height: 522px;
+  background: #46AD8F;
+  overflow: hidden;
+  text-align: center;
+}
 
+.projects .proj-left, .projects .proj-center, .projects .proj-right {
+  float: left;
+  overflow: hidden;
+  width: 33.33%;
+  height: 100%;
+}
+
+.projects .proj-left {
+  background: #3D776A;
+  background-image: url(../images/dylan.png);
+  background-position: bottom;
+  cursor: pointer;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.projects .proj-right {
+  background: #389497;
+  background-image: url(../images/trooper.png);
+  background-position: center;
+  cursor: pointer;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.projects .proj-left .prev-proj,
+.projects .proj-right .next-proj {
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 170px;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.projects .proj-left .prev-proj span {
+  margin-right: 5px;
+  vertical-align: 3px;
+}
+
+.projects .proj-left .prev-proj span img,
+.projects .proj-right .next-proj span img {
+  width: 20px;
+}
+
+.projects .proj-left p,
+.projects .proj-right p {
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+.projects .proj-right .next-proj {
+  text-align: left;
+  margin-right: 0;
+  margin-left: 60px;
+}
+
+.projects .proj-right .next-proj span {
+  margin-left: 5px;
+  vertical-align: 3px;
+}
 
 /*RESPONSIVE*/
 @media screen and (max-width: 510px) {
