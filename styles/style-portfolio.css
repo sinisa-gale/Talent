@@ -269,8 +269,78 @@
 }
 
 /*RESPONSIVE*/
+@media screen and (max-width: 1140px) {
+  .main-project .port-main {
+    width: 765px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-project .port-main .port-left {
+    width: 275px;
+    margin-right: 25px;
+  }
+  .main-project .port-main .port-left .p-share {
+    height: 130px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-project .port-main .port-right {
+    width: 450px;
+  }
+  .main-project .port-main .port-right .p-img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 42px;
+  }
+  .main-project .port-main .port-right .p-img img {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 800px) {
+  .main-project {
+    height: auto;
+  }
+  .main-project .port-main {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .main-project .port-main .port-left,
+  .main-project .port-main .port-right {
+    float: none;
+  }
+  .main-project .port-main .port-left {
+    width: 550px;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+  }
+  .main-project .port-main .port-left p {
+    width: auto;
+  }
+  .main-project .port-main .port-left .p-line,
+  .main-project .port-main .port-left .p-line2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main-project .port-main .port-right {
+    width: 100%;
+  }
+  .main-project .port-main .port-right .p-img {
+    margin-bottom: 20px;
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-project .port-main .port-right .p-img img {
+    width: 100%;
+  }
+
   .projects {
     height: 440px;
   }
@@ -306,6 +376,22 @@
   }
   .desc .desc-row h1 {
     margin-top: 50px;
+  }
+  .main-project .port-main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main-project .port-main .port-left {
+    width: 370px;
+  }
+  .main-project .port-main .port-left p {
+    margin-top: 25px;
+  }
+  .main-project .port-main .port-right .p-img {
+    width: auto;
+  }
+  .main-project .port-main .port-right .p-img img {
+    width: 95%;
   }
 }
 
